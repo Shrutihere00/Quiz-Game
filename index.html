@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5nzo8xNUr_lvnUjQnU4SiiRUb7TPJnqWx1w&usqp=CAU" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div class="main">
+        <button class="buttonstart" onclick="start()">Start</button>
+        <div class="area">
+            <div class="question"></div>
+            <div class="options">
+                <ul class="ul">
+                    <div><input  type="radio" name="answer" id="option1"  class="option" /><label  for="option1" class="option1" ></label></div>
+                    <div> <input type="radio" id="option2" name="answer" class="option" /><label  for="option2" class="option2"></label></div>
+                    <div><input type="radio" name="answer" id="option3"class="option" /><label   for="option3" class="option3"></label></div>
+                    <div><input type="radio" id="option4" name="answer" class="option"/><label  for="option4" class="option4"></label></div>
+                </ul>
+                <button class="btn result" onclick="submit()">Submit</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
